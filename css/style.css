@@ -24,7 +24,8 @@ body {
 }
 
 a,
-button {
+button,
+small strong {
     text-transform: uppercase;
 }
 
