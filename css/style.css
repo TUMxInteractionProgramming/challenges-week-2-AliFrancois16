@@ -1,0 +1,127 @@
+/* #2 #colorful #palette is:
+    * Background: #F5F5F5 (GREY 100)
+    * Primary Text: black
+
+    * Primary color: #3F51B5 (INDIGO)
+    * Primary color_text : white
+    * Accent color: #CDDC39 (LIME)
+    * Accent color_text: black
+*/
+
+
+/* Global */
+
+* {
+    /* #2 #font #faces */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+
+a,
+button {
+    text-transform: uppercase;
+}
+
+a {
+    color: inherit;
+}
+
+
+/* App bar */
+
+h1 {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+}
+
+.selected {
+    color: #3F51B5;
+}
+
+
+/* Channels list */
+
+ul li {
+    padding: 16px;
+    font-size: 16px;
+    height: 49px;
+    border-bottom: 1px solid #F5F5F5;
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul {
+    list-style-type: none;
+    background-color: white;
+}
+
+li.selected {
+    border-left: 4px solid #3F51B5;
+}
+
+
+/* Tab bar */
+
+#nav {
+    background-color: white;
+}
+
+#nav button {
+    background-color: white;
+    border: none;
+    font-size: 13px;
+    width: 33%;
+    height: 72px;
+    margin: auto;
+    padding: 16px;
+}
+
+#nav button.selected {
+    border-bottom: 4px solid #3F51B5;
+}
+
+
+/* Messages */
+
+.message {
+    width: 80%;
+    margin-bottom: 8px;
+    margin-left: 2.5%;
+}
+
+.message p {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+    padding: 16px;
+}
+
+.message h3 {
+    /* #2 #font #metadata is now medium */
+    font-size: medium;
+}
+
+.message em {
+    /* #2 #font #remaining overrides the default italic appearance of em elements*/
+    font-size: larger;
+    font-style: normal;
+}
+
+.message button {
+    /* #2 #colourful #plusfive */
+    background-color: #CDDC39;
+    color: black;
+}
+
+.own {
+    margin-left: 17.5%;
+}
